@@ -41,9 +41,9 @@ const Game = () => {
 
     return (
         <>
+        <div className="game">
             <Board squares={history[stepNumber]} onClick={handleClick} />
-            <div className="game">
-                <p>{winner ? 'Winner: ' + winner : 'Next Player: ' + (xIsNext ? 'X' : 'O')}</p>
+                <p>{winner ? winner + ' wins the game!': 'Next Player: ' + (xIsNext ? 'X' : 'O')}</p>
                 {renderMoves()}
             </div>
         </>

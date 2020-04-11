@@ -1,14 +1,16 @@
-import React from 'react';
-import Game from './Components/Game';
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Game from "./Components/Game";
 
-import './App.css';
+import "./App.css";
 
 const App = () => {
   return (
     <div className="App">
-     <Game />
+      <Navbar />
+      <Game />
     </div>
   );
-}
+};
 
 export default App;
