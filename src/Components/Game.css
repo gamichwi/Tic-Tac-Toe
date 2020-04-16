@@ -1,5 +1,39 @@
 .game{
-    width: 200px;
+    width: 100%;
     margin: '20px auto';
 }
 
+.game__details {
+    width: 100%
+}
+
+.game__turn{
+    text-align: center;
+    font-size: 22px;
+}
+    
+.game__move {
+    display: flex; 
+    align-content: center;
+    justify-content: center;
+}
+
+.game__move button{
+    font-size: 22px;
+    font-weight:bold;
+    color:white;
+    background: #ff1b68;
+    min-width: 200px;
+    border: 2px solid black;
+    margin: 2px;
+    outline:none;
+}
+
+.game__move button:hover,
+.game__move button:active {
+
+    cursor: pointer;
+    background: darkblue;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-color: #1f1a24;
+}
