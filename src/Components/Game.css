@@ -3,13 +3,10 @@
     margin: '20px auto';
 }
 
-.game__details {
-    width: 100%
-}
-
 .game__turn{
     text-align: center;
     font-size: 22px;
+    margin: 2px;
 }
     
 .game__move {
@@ -25,7 +22,7 @@
     background: #ff1b68;
     min-width: 200px;
     border: 2px solid black;
-    margin: 2px;
+    margin: 1px;
     outline:none;
 }
 
