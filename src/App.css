@@ -3,4 +3,9 @@
 .App {
   font-style: bold;
   font-family: 'Montserrat', sans-serif;
+  align-content: center;
+}
+
+li {
+  list-style: none;
 }
